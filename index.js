@@ -22,7 +22,7 @@ db()
 
 //* Configurar CORS
 
-const whiteList = [process.env.FRONTEND_URl, undefined]
+const whiteList = [process.env.FRONTEND_URl]
 
 const corsOptions = { 
   origin: function (origin, callback) {
